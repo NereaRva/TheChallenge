@@ -40,7 +40,7 @@ main{
     background-color: white;
     text-align: center;
     border-radius: 4px;
-    padding: 19px 40px;
+    padding: 19px 70px;
 }
 .block1__1 a{
     text-decoration: none;
@@ -95,7 +95,7 @@ main{
 
 }
 .contenedor2__section_img img{
-    width: 80%;
+    width: 70%;
     margin-left: 12%;
 
 }
@@ -160,4 +160,50 @@ main{
 }
 .section8{
     background-color: rgb(244,237,228);
+}
+.section9{
+    padding-top: 20%;
+    margin-left: 5%;
+}
+.section__title-font{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.1875;
+    letter-spacing: -.3px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.section__subtitle-center{
+    letter-spacing: 0.7px;    
+    padding: 0 5%;
+    font-weight: 400;
+    line-height: 1.1875;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+}
+.section10__1{
+    background-color: rgb(72,22,75);
+    text-align: center;
+    border-radius: 4px;
+    padding: 19px 50px;
+    margin: 5%;
+}
+.section10__1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.section10__2{
+    text-align: center;
+    border-radius: 4px;
+    padding: 19px 40px;
+    border: 1px solid rgb(72,22,75);
+    padding: 19px 50px;
+    margin: 5%;
+}
+.section10__2 a{
+    text-decoration: none;
+    color: rgb(72,22,75);
+    font-weight: 700;
 }
