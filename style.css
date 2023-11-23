@@ -20,6 +20,9 @@ header i{
 .title__yellow{
     color: #ecb22e;
 }
+main{
+    width: 100%;
+}
 .title__subtitle{
     background-color: rgb(72,22,75);
     color: white;
@@ -30,14 +33,14 @@ header i{
     display: grid;
     justify-content: center;
     background-color: rgb(72,22,75);
-    width: 100%;
+    padding: 20px;
+    gap: 10px;
 }
 .block1__1{
     background-color: white;
     text-align: center;
     border-radius: 4px;
     padding: 19px 40px;
-    width: 100%;
 }
 .block1__1 a{
     text-decoration: none;
@@ -46,10 +49,115 @@ header i{
 }
 .block1__2{
     background-color: rgb(28,155,239);
-    text-align: center;
-    border-radius: 4px;
-    padding: 19px 40px;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 4px;  
 }
-.block__2 img{
-    width: 20px;
+.block1__2 a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;  
+}
+.block1__2 a img{
+    width: 30px;
+}
+.section1{
+    width: 100%;
+}
+.section1 img{
+    width: 100%;
+}
+.section2{
+    background-color: rgb(244,237,228);
+    width: 100%;
+    padding-top: 5%;
+}
+.section2__1{
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.125;
+    padding: 30px;
+    
+}
+.contenedor1__section_img{
+    display: flex;
+    align-items: center;
+}
+.contenedor1__section_img img{
+    width: 80%;
+}
+.contenedor2__section_img{
+    display: flex;
+    align-items: center;
+
+}
+.contenedor2__section_img img{
+    width: 80%;
+    margin-left: 12%;
+
+}
+.contenedor3__section_img{
+   display: flex;
+   justify-content: center;
+}
+.contenedor3__section_img img{
+    width: 70%;
+}
+.section3{
+    width: 100%;
+    background-color: rgb(244,237,228)
+}
+.section3 img{
+    width: 100%;
+    padding-top: 10%;
+}
+.section4{
+    background-color: rgb(244,237,228);
+    padding-top: 5%;
+}
+.section__title{
+    letter-spacing: -.3px;
+    padding: 10% 5%;
+    line-height: 1.1875;
+    font-size: xx-large; 
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.section__subtitle{
+    letter-spacing: -.3px;
+    padding: 0 5%;
+    font-weight: 400;
+    line-height: 1.1875;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.section__a{
+    text-decoration: none;
+    display: flex;
+    padding: 5%;
+    color: #1264a3;
+    cursor: pointer;
+    font-size: calc(1.125rem + (0 * (100vw - 400px)/ 624));
+}
+.section5{
+    background-color: rgb(244,237,228);
+    padding-top: 14%;
+}
+.section5 img{
+    width: 80%;
+}
+.section6{
+    background-color: rgb(244,237,228);
+}
+.section7{
+    width: 100%;
+    background-color: rgb(244,237,228);
+
+}
+.section7 img{
+    width: 80%;
+}
+.section8{
+    background-color: rgb(244,237,228);
 }
