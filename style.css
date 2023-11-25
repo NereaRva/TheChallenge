@@ -392,3 +392,111 @@ footer{
     color: #696969;
     font-size: small;
 }
+/*Versión desktop*/
+@media (min-width: 768px){
+	.topbar__icons{
+         display: none;
+	}
+.topbar__img{
+    flex: none;
+}
+.topbar__menu{
+    
+}
+    .topbar__menu ul{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.topbar__menu a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    justify-content: start;
+}
+.topbar__menu-1 ul{
+    display: flex;
+    gap: 20px
+}
+.topbar__menu-1 a{
+    text-decoration: none;
+    color: white;
+}
+.topbar__links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main__section-1{
+    display: flex;
+}
+.section1 img{
+    width: 100%;
+}
+.main__section1-2{
+    background-color: rgb(72,22,75);
+}
+.section2__img-1{
+    display: flex;
+    justify-content: center;
+}
+.section3__padre{
+    display: flex;
+    align-items: center;
+    background-color: rgb(244,237,228);
+}
+.section5__padre{
+    display: flex;
+    align-items: center;
+    background-color: rgb(244,237,228);
+}
+.section5{
+    order: 2;
+    width: 100%;
+}
+.section6{
+    width: 100%;
+}
+.section7{
+    width: 100%;
+}
+.section8{
+    width: 100%;
+}
+.section10{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.section10__1{
+    margin: 0;
+}
+.section10__2{
+    margin: 0;
+}
+.section11__ul ul{
+    display: flex;
+    justify-content: center;
+}
+.section__12{
+    display: flex;
+}
+.section12{
+    width: 100%;
+}
+.section13{
+    width: 100%;
+}
+.section18{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.section18__1{
+    margin-bottom: 0;
+}
+}
+
+
